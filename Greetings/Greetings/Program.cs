@@ -6,7 +6,7 @@ namespace Greetings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Console.WriteLine("Hello " + args[0]);
         }
     }
 }

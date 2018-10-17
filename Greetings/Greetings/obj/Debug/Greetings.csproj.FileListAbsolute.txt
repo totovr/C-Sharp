@@ -1,0 +1,6 @@
+C:\Users\avega\Documents\Github\C-Sharp\Greetings\Greetings\bin\Debug\Greetings.exe.config
+C:\Users\avega\Documents\Github\C-Sharp\Greetings\Greetings\bin\Debug\Greetings.exe
+C:\Users\avega\Documents\Github\C-Sharp\Greetings\Greetings\bin\Debug\Greetings.pdb
+C:\Users\avega\Documents\Github\C-Sharp\Greetings\Greetings\obj\Debug\Greetings.csproj.CoreCompileInputs.cache
+C:\Users\avega\Documents\Github\C-Sharp\Greetings\Greetings\obj\Debug\Greetings.exe
+C:\Users\avega\Documents\Github\C-Sharp\Greetings\Greetings\obj\Debug\Greetings.pdb
