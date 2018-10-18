@@ -1,0 +1,7 @@
+C:\Users\avega\source\repos\Valorations\Valorations\bin\Debug\Valorations.exe.config
+C:\Users\avega\source\repos\Valorations\Valorations\bin\Debug\Valorations.exe
+C:\Users\avega\source\repos\Valorations\Valorations\bin\Debug\Valorations.pdb
+C:\Users\avega\source\repos\Valorations\Valorations\obj\Debug\Valorations.csprojAssemblyReference.cache
+C:\Users\avega\source\repos\Valorations\Valorations\obj\Debug\Valorations.csproj.CoreCompileInputs.cache
+C:\Users\avega\source\repos\Valorations\Valorations\obj\Debug\Valorations.exe
+C:\Users\avega\source\repos\Valorations\Valorations\obj\Debug\Valorations.pdb
