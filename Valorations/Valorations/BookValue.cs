@@ -10,6 +10,7 @@ namespace Valorations
     {
         List<float> valorations;
 
+        // ctor
         public BookValue()
         {
             valorations = new List<float>();

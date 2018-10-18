@@ -14,6 +14,9 @@ namespace Valorations
             BookValue book = new BookValue();
             book.AddValoration(3.5f);
             book.AddValoration(5);
+
+            BookValue book2 = new BookValue();
+            book2.AddValoration(3);
         }
     }
 }
