@@ -12,6 +12,7 @@ namespace Valorations
         public static string name = "Tono";
         public List<float> valorations;
         // ctor
+        // This is the method that automatically is created by the system, but we also write it to modify it 
         public BookValue()
         {
             valorations = new List<float>();

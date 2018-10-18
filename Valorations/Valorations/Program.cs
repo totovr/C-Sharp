@@ -10,14 +10,18 @@ namespace Valorations
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(BookValue.name);
             // Create a new constructor
             BookValue book = new BookValue();
+
+            // Assignate values
             book.AddValoration(3.5f);
             book.AddValoration(5);
 
-            BookValue book2 = new BookValue();
-            book2.AddValoration(3);
+            // Show the evaluations
+            book.ShowEvaluations();
+            // Min evaluation
+            // Max evaluation
+            // Average
         }
     }
 }
