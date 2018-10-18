@@ -8,8 +8,9 @@ namespace Valorations
 {
     class BookValue
     {
-        List<float> valorations;
-
+        // static means that never will change
+        public static string name = "Tono";
+        public List<float> valorations;
         // ctor
         public BookValue()
         {

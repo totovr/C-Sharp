@@ -10,6 +10,7 @@ namespace Valorations
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(BookValue.name);
             // Create a new constructor
             BookValue book = new BookValue();
             book.AddValoration(3.5f);
