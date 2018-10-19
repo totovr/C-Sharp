@@ -1,0 +1,14 @@
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Valoration.Test.dll
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Valoration.Test.pdb
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\obj\Debug\Valoration.Test.csprojAssemblyReference.cache
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\obj\Debug\Valoration.Test.csproj.CoreCompileInputs.cache
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\obj\Debug\Valoration.Test.csproj.CopyComplete
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\obj\Debug\Valoration.Test.dll
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valoration.Test\obj\Debug\Valoration.Test.pdb
