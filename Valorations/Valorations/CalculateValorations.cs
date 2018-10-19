@@ -12,5 +12,9 @@ namespace Valorations
         {
                 
         }
+
+        public float valueMin;
+        public float valueMax;
+        public float averageValue;
     }
 }

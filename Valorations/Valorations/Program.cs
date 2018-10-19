@@ -14,11 +14,13 @@ namespace Valorations
             BookValue book = new BookValue();
 
             // Assignate values
-            book.AddValoration(3.5f);
+            book.AddValoration(5);
             book.AddValoration(5);
 
             // Show the evaluations
-            book.ShowEvaluations();
+            CalculateValorations publish = book.ShowEvaluations();
+            Console.WriteLine(publish.averageValue);
+            Console.WriteLine();
             // Min evaluation
             // Max evaluation
             // Average
