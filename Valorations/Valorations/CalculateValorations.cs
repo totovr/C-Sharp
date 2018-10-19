@@ -10,7 +10,7 @@ namespace Valorations
     {
         public CalculateValorations()
         {
-                
+            valueMin = float.MaxValue;
         }
 
         public float valueMin;

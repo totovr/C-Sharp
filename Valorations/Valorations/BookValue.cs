@@ -25,6 +25,9 @@ namespace Valorations
             float plusValues = 0;
             foreach (float valoration in valorations)
             {
+                // Math is a method of the system 
+                calculus.valueMin = Math.Min(valoration, calculus.valueMin);
+                calculus.valueMax = Math.Max(valoration, calculus.valueMax);
                 plusValues += valoration;
             }
             // Quantity of values that are in the list

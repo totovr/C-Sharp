@@ -15,12 +15,17 @@ namespace Valorations
 
             // Assignate values
             book.AddValoration(5);
-            book.AddValoration(5);
+            book.AddValoration(4);
+            book.AddValoration(3);
+            book.AddValoration(2);
+            book.AddValoration(1);
 
             // Show the evaluations
             CalculateValorations publish = book.ShowEvaluations();
-            Console.WriteLine(publish.averageValue);
-            Console.WriteLine();
+            Console.WriteLine("The average of the value is: " + publish.averageValue);
+            Console.WriteLine("The min value is: " + publish.valueMin);
+            Console.WriteLine("The max value is: " + publish.valueMax);
+            Console.ReadLine();
             // Min evaluation
             // Max evaluation
             // Average
