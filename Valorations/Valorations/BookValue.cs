@@ -17,7 +17,13 @@ namespace Valorations
         {
             valorations = new List<float>();
         }
-            
+
+        public CalculateValorations ShowEvaluations()
+        {
+            CalculateValorations calculus = new CalculateValorations();
+            return calculus; 
+        }
+
         public void AddValoration(float valoration)
         {
             valorations.Add(valoration);
