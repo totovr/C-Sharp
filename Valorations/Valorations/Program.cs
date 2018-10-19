@@ -25,6 +25,7 @@ namespace Valorations
             Console.WriteLine("The average of the value is: " + publish.averageValue);
             Console.WriteLine("The min value is: " + publish.valueMin);
             Console.WriteLine("The max value is: " + publish.valueMax);
+            Console.Beep();
             Console.ReadLine();
             // Min evaluation
             // Max evaluation
