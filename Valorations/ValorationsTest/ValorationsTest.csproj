@@ -49,9 +49,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InmutableTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Types\TypesReference.cs" />
-    <Compile Include="Types\ValueTypes.cs" />
+    <Compile Include="Types\TypesReferenceTest.cs" />
+    <Compile Include="Types\ValueTypesTest.cs" />
     <Compile Include="ValorationsTests.cs" />
   </ItemGroup>
   <ItemGroup>

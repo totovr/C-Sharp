@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Valorations
 {
+    // enum will not change
+    public enum LanguageBook
+    {
+        none, EN, ES, GE, IT
+    }
+
     // internal is a work that make just able to access internally to this work space the class
     // internal class BookValue
     public class BookValue
@@ -15,6 +21,7 @@ namespace Valorations
         // ctor
         // This is the method that automatically is created by the system, but we also write it to modify it 
         public string Name;
+        public LanguageBook Language;
         List<float> valorations;
 
         public BookValue()

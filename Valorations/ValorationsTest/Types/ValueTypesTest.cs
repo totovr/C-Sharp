@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Valorations;
 
 
 namespace ValorationsTest.Types
 {
     [TestClass]
-    public class ValueTypes
+    public class ValueTypesTest
     {
         /*
         int x;
@@ -19,12 +20,21 @@ namespace ValorationsTest.Types
         */
 
         [TestMethod]
-        public void ValueTypesTest()
+        public void ValueTypesTests()
         {
             int x1 = 10;
             int x2 = x1;
             // x1 = 20;
             Assert.AreEqual(x1, x2);
+        }
+
+        [TestMethod]
+        public void EnumTypesValueTest()
+        {
+            BookValue book = new BookValue();
+            book.Language = LanguageBook.EN;
+
+            Assert.AreEqual(book.Language, LanguageBook.EN);
         }
     }
 }

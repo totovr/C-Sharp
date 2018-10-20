@@ -9,7 +9,7 @@ using Valorations;
 namespace ValorationsTest.Types
 {
     [TestClass]
-    public class TypesReference
+    public class TypesReferenceTest
     {
         [TestMethod]
         public void VariablesTypesReference()

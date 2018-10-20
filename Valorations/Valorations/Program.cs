@@ -13,11 +13,12 @@ namespace Valorations
         {
             // Create a new constructor
             BookValue book = new BookValue();
+            book.Language = LanguageBook.EN;
             // SpeechSynthesizer talk = new SpeechSynthesizer();
             _3DVector myVector;
             myVector.x = 10;
-            myVector.x = 10;
-            myVector.x = 30.30f;
+            myVector.y = 10;
+            myVector.z = 30.30f;
 
             // Assignate values
             book.AddValoration(5);

@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3DVector.cs" />
     <Compile Include="BookValue.cs" />
     <Compile Include="CalculateValorations.cs" />
     <Compile Include="Program.cs" />
