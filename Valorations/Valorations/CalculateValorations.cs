@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Valorations
 {
-    class CalculateValorations
+    public class CalculateValorations
     {
         public CalculateValorations()
         {

@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace Valorations
 {
-    class BookValue
+    // internal is a work that make just able to access internally to this work space the class
+    // internal class BookValue
+    public class BookValue
     {
         // static means that never will change
-        public static string name = "Tono";
-        public List<float> valorations;
+        // public static string name = "Tono";
         // ctor
         // This is the method that automatically is created by the system, but we also write it to modify it 
+        public List<float> valorations;
+
         public BookValue()
         {
             valorations = new List<float>();
