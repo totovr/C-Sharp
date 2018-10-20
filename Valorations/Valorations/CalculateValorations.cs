@@ -10,11 +10,11 @@ namespace Valorations
     {
         public CalculateValorations()
         {
-            valueMin = float.MaxValue;
+            ValueMin = float.MaxValue;
         }
 
-        public float averageValue;
-        public float valueMin;
-        public float valueMax;
+        public float AverageValue;
+        public float ValueMin;
+        public float ValueMax;
     }
 }

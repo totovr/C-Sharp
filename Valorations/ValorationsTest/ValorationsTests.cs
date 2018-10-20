@@ -11,15 +11,20 @@ namespace ValorationsTest
     [TestClass]
     public class ValorationsTests
     {
+        // We write the method that we want to evaluate
         [TestMethod]
-        public void CalculateMaxValue()
+        public void averageValue()
         {
             BookValue book = new BookValue();
             book.AddValoration(5);
+            book.AddValoration(4);
+            book.AddValoration(3);
+            book.AddValoration(2);
+            book.AddValoration(1);
 
             CalculateValorations result = book.ShowEvaluations();
-
-            Assert.AreEqual(5, result.valueMax);
+            // this must ve the same 
+            Assert.AreEqual(3, result.AverageValue);
         }
     }
 }

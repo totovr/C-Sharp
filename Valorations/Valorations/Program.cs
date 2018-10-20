@@ -13,7 +13,7 @@ namespace Valorations
         {
             // Create a new constructor
             BookValue book = new BookValue();
-            SpeechSynthesizer talk = new SpeechSynthesizer();
+            // SpeechSynthesizer talk = new SpeechSynthesizer();
 
             // Assignate values
             book.AddValoration(5);
@@ -22,13 +22,15 @@ namespace Valorations
             book.AddValoration(2);
             book.AddValoration(1);
 
-            talk.Speak("This is the average of the evaluations");
-            // Show the evaluations
+            // talk.Speak("This is the average of the evaluations");
+            // This is the same as:
+            // CalculateValorations publish = new CalculateValoration();
+            // publish = book.ShowEvaluations();
             CalculateValorations publish = book.ShowEvaluations();
-            Console.WriteLine("The average of the value is: " + publish.averageValue);
-            Console.WriteLine("The min value is: " + publish.valueMin);
-            Console.WriteLine("The max value is: " + publish.valueMax);
-            Console.Beep();
+            Console.WriteLine("The average of the value is: " + publish.AverageValue);
+            Console.WriteLine("The min value is: " + publish.ValueMin);
+            Console.WriteLine("The max value is: " + publish.ValueMax);
+            // Console.Beep();
             Console.ReadLine();
             // Min evaluation
             // Max evaluation

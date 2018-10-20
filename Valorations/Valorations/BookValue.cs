@@ -14,10 +14,12 @@ namespace Valorations
         // public static string name = "Tono";
         // ctor
         // This is the method that automatically is created by the system, but we also write it to modify it 
-        public List<float> valorations;
+        public string Name;
+        List<float> valorations;
 
         public BookValue()
         {
+            // Initialize list
             valorations = new List<float>();
         }
 
@@ -29,17 +31,18 @@ namespace Valorations
             foreach (float valoration in valorations)
             {
                 // Math is a method of the system 
-                calculus.valueMin = Math.Min(valoration, calculus.valueMin);
-                calculus.valueMax = Math.Max(valoration, calculus.valueMax);
+                calculus.ValueMin = Math.Min(valoration, calculus.ValueMin);
+                calculus.ValueMax = Math.Max(valoration, calculus.ValueMax);
                 plusValues += valoration;
             }
             // Quantity of values that are in the list
-            calculus.averageValue = plusValues / valorations.Count;
+            calculus.AverageValue = plusValues / valorations.Count;
             return calculus; 
         }
 
         public void AddValoration(float valoration)
         {
+            // This is a list
             valorations.Add(valoration);
         }
        
