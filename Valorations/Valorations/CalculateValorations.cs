@@ -13,8 +13,8 @@ namespace Valorations
             valueMin = float.MaxValue;
         }
 
+        public float averageValue;
         public float valueMin;
         public float valueMax;
-        public float averageValue;
     }
 }

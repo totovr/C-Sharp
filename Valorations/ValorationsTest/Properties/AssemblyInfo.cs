@@ -2,18 +2,18 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Valorations.Test")]
+[assembly: AssemblyTitle("ValorationsTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("UNITCOM PC")]
-[assembly: AssemblyProduct("Valorations.Test")]
+[assembly: AssemblyProduct("ValorationsTest")]
 [assembly: AssemblyCopyright("Copyright © UNITCOM PC 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 [assembly: ComVisible(false)]
 
-[assembly: Guid("2edddf15-a244-40cc-8057-78bf18fa4ad7")]
+[assembly: Guid("98387de4-93c6-43ae-a757-5554fc31f783")]
 
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
