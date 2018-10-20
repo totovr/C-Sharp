@@ -20,5 +20,36 @@ namespace ValorationsTest.Types
             l1.Name = "Book...";
             Assert.AreEqual(l1.Name, l2.Name);
         }
+
+        [TestMethod]
+        public void MyArrayTestMethod()
+        {
+            // How many objects will store
+            letters = new string[3];
+            AddLetter("A");
+            Assert.AreEqual("A", letters[0]);
+
+        }
+
+        [TestMethod]
+        public void IntTestMethod()
+        {
+            numbersReference = new int[3];
+            numbersReference[0] = 1;
+            numbersReference[0] = 2;
+            numbersReference[0] = 3;
+            // Not necessary to construct the object "new" because the object was already referenced
+            int[] numbersReference2 = numbersReference;
+            Assert.AreEqual(numbersReference[0], numbersReference2[0]);
+        }
+
+        void AddLetter(string L)
+        {
+            letters[0] = L;
+        }
+
+        string[] letters;
+        int[] numbersReference;
+
     }
 }

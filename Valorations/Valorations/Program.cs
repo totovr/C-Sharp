@@ -11,16 +11,20 @@ namespace Valorations
     {
         static void Main(string[] args)
         {
-            // Create a new constructor
+            // Create constructors
             BookValue book = new BookValue();
-            book.Language = LanguageBook.EN;
             // SpeechSynthesizer talk = new SpeechSynthesizer();
             _3DVector myVector;
+            MyArrays myArray = new MyArrays();
+
+            // Methods
+            myArray.ArrayWorking();
+
+            // Assignate propierties
             myVector.x = 10;
             myVector.y = 10;
             myVector.z = 30.30f;
-
-            // Assignate values
+            book.Language = LanguageBook.EN;
             book.AddValoration(5);
             book.AddValoration(4);
             book.AddValoration(3);

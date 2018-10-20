@@ -50,6 +50,7 @@
     <Compile Include="3DVector.cs" />
     <Compile Include="BookValue.cs" />
     <Compile Include="CalculateValorations.cs" />
+    <Compile Include="MyArrays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
