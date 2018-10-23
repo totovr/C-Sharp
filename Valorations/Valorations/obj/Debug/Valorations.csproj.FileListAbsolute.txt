@@ -19,3 +19,6 @@ C:/Users/avega/Documents/Github/C-Sharp/Valorations/Valorations/obj/Debug/Valora
 /Users/bsys/Github/C-Sharp/Valorations/Valorations/bin/Debug/Valorations.exe.config
 /Users/bsys/Github/C-Sharp/Valorations/Valorations/bin/Debug/Valorations.exe
 /Users/bsys/Github/C-Sharp/Valorations/Valorations/bin/Debug/Valorations.pdb
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valorations\bin\Debug\Valorations.exe.config
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valorations\obj\Debug\Valorations.exe
+C:\Users\avega\Documents\Github\C-Sharp\Valorations\Valorations\obj\Debug\Valorations.pdb
