@@ -36,14 +36,21 @@ namespace Valorations
             // CalculateValorations publish = new CalculateValoration();
             // publish = book.ShowEvaluations();
             CalculateValorations publish = book.ShowEvaluations();
-            Console.WriteLine("The average of the value is: " + publish.AverageValue);
-            Console.WriteLine("The min value is: " + publish.ValueMin);
-            Console.WriteLine("The max value is: " + publish.ValueMax);
+            // Because of inmutability we have to store the value of the object in one variable
+            float maxValoration = publish.ValueMax;
+            float minValoration = publish.ValueMin;
+            float averageValoration = publish.AverageValue;
+
+            WriteValorations("The average of the value is: ", averageValoration);
+            WriteValorations("The min value is: ", minValoration);
+            WriteValorations("The max value is: ", maxValoration);
             // Console.Beep();
             Console.ReadLine();
-            // Min evaluation
-            // Max evaluation
-            // Average
+        }
+
+        private static void WriteValorations(string description, float valoration)
+        {
+            Console.WriteLine("{0}"+"{1}", description, valoration);
         }
     }
 }
