@@ -16,13 +16,29 @@ namespace Valorations
     // internal class BookValue
     public class BookValue
     {
-        // static means that never will change
-        // public static string name = "Tono";
+        // static means that is not necessesary to create an instance of that class 
         // ctor
         // This is the method that automatically is created by the system, but we also write it to modify it 
-        public string Name;
+        // With this pass to be a property
+        private string _name;
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                // if is diffeerente of null it will send the _name value
+                if (!String.IsNullOrEmpty(value))
+                {
+                    _name = value;
+                }
+            }
+        }
+
         public LanguageBook Language;
-        List<float> valorations;
+        private List<float> valorations;
 
         public BookValue()
         {

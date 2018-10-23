@@ -13,12 +13,15 @@ namespace Valorations
         {
             // Create constructors
             BookValue book = new BookValue();
+            book.Name = "Tono valorations book";
+            book.Name = null;
+            Console.WriteLine(book.Name);
             // SpeechSynthesizer talk = new SpeechSynthesizer();
             _3DVector myVector;
-            MyArrays myArray = new MyArrays();
+            // MyArrays myArray = new MyArrays();
 
             // Methods
-            myArray.ArrayWorking();
+            // myArray.ArrayWorking();
 
             // Assignate propierties
             myVector.x = 10;
@@ -43,7 +46,7 @@ namespace Valorations
 
             WriteValorations("The average of the value is: ", averageValoration);
             WriteValorations("The min value is: ", minValoration);
-            WriteValorations("The max value is: ", maxValoration);
+            WriteValorations("The max value is: ", (int)maxValoration);
             // Console.Beep();
             Console.ReadLine();
         }
@@ -51,6 +54,11 @@ namespace Valorations
         private static void WriteValorations(string description, float valoration)
         {
             Console.WriteLine("{0}"+"{1}", description, valoration);
+        }
+
+        private static void WriteValorations(string description, int valoration)
+        {
+            Console.WriteLine("{0}" + "{1}", description, valoration);
         }
     }
 }
