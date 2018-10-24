@@ -4,6 +4,7 @@ using System.Linq;
 // using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
+using Valorations.ControlStructures;
 
 namespace Valorations
 {
@@ -17,9 +18,11 @@ namespace Valorations
             book.Name = null;
             Console.WriteLine(book.Name);
             // SpeechSynthesizer talk = new SpeechSynthesizer();
-            _3DVector myVector;
-            // MyArrays myArray = new MyArrays();
 
+            // Struct type
+            _3DVector myVector;
+
+            // MyArrays myArray = new MyArrays();
             // Methods
             // myArray.ArrayWorking();
 
@@ -48,10 +51,15 @@ namespace Valorations
             WriteValorations("The min value is: ", minValoration);
             WriteValorations("The max value is: ", (int)maxValoration);
             // Console.Beep();
+
+            // Create a new object of Conditionals type, is needed to instance it because is not a static class
+            Conditionals conditionals = new Conditionals();
+            conditionals.ProbesReturn();
+
             Console.ReadLine();
         }
 
-        private static void WriteValorations(string description, float valoration)
+        public static void WriteValorations(string description, float valoration)
         {
             Console.WriteLine("{0}"+"{1}", description, valoration);
         }

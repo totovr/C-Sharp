@@ -50,6 +50,7 @@
     <Compile Include="3DVector.cs" />
     <Compile Include="BookValue.cs" />
     <Compile Include="CalculateValorations.cs" />
+    <Compile Include="ControlStructures\Conditionals.cs" />
     <Compile Include="ControlStructures\OperationsExpresions.cs" />
     <Compile Include="ControlStructures\States.cs" />
     <Compile Include="ControlStructures\Variables.cs" />

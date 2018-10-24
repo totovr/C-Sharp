@@ -8,7 +8,7 @@ namespace Valorations.ControlStructures
 {
     class OperationsExpresions
     {
-        int x = 10;
+        // int x = 10;
 
         // This is an expresion
         // if ((x != 10) && (x > 5) || ((x > 20) && (x < 25)))
