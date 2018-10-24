@@ -38,6 +38,7 @@ namespace Valorations
             }
             Console.WriteLine();
 
+            //Automatically detect the size of the array
             int[,] numbers2DResume = { { 9, 9 }, { 3, 3 }, { 4, 4 } };
             foreach (int i in numbers2DResume)
             {
