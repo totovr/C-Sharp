@@ -53,6 +53,7 @@
     <Compile Include="ControlStructures\Conditionals.cs" />
     <Compile Include="ControlStructures\OperationsExpresions.cs" />
     <Compile Include="ControlStructures\States.cs" />
+    <Compile Include="ControlStructures\SwitchCase.cs" />
     <Compile Include="ControlStructures\Variables.cs" />
     <Compile Include="Methods.cs" />
     <Compile Include="MyArrays.cs" />

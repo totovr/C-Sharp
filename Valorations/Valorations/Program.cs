@@ -50,13 +50,24 @@ namespace Valorations
             WriteValorations("The average of the value is: ", averageValoration);
             WriteValorations("The min value is: ", minValoration);
             WriteValorations("The max value is: ", (int)maxValoration);
-            // Console.Beep();
+            WriteValorations("The letter of the valoration in: " + book.lettersValoration);
 
+            SwitchCase myCases = new SwitchCase();
+            myCases.SwitchCaseExample1();
+            myCases.SwitchCaseExample2();
+            myCases.SwitchCaseExample3();
+
+            // Console.Beep();
             // Create a new object of Conditionals type, is needed to instance it because is not a static class
-            Conditionals conditionals = new Conditionals();
-            conditionals.ProbesReturn();
+            // Conditionals conditionals = new Conditionals();
+            // conditionals.ProbesReturn();
 
             Console.ReadLine();
+        }
+
+        public static void WriteValorations(string description)
+        {
+            Console.WriteLine("{0}", description);
         }
 
         public static void WriteValorations(string description, float valoration)

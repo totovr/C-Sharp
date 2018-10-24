@@ -16,10 +16,16 @@ namespace Valorations
     // internal class BookValue
     public class BookValue
     {
-        // static means that is not necessesary to create an instance of that class 
-        // ctor
-        // This is the method that automatically is created by the system, but we also write it to modify it 
-        // With this pass to be a property
+
+        private string _lettersValoration;
+        public string lettersValoration
+        {
+            get
+            {
+                return _lettersValoration;
+            }
+        }
+
         private string _name;
         public string Name
         {
@@ -60,7 +66,32 @@ namespace Valorations
             }
             // Quantity of values that are in the list
             calculus.AverageValue = plusValues / valorations.Count;
+            AssignLetterValoration(calculus.AverageValue);
             return calculus; 
+        }
+
+        private void AssignLetterValoration(float AV)
+        {
+            if (AV <= 5 && AV > 4)
+            {
+                _lettersValoration = "A";
+            }
+            else if (AV <= 4 && AV > 3)
+            {
+                _lettersValoration = "B";
+            }
+            else if (AV <= 3 && AV > 2)
+            {
+                _lettersValoration = "C";
+            }
+            else if (AV <= 2 && AV > 1)
+            {
+                _lettersValoration = "C";
+            }
+            else 
+            {
+                _lettersValoration = "D";
+            }
         }
 
         public void AddValoration(float valoration)
