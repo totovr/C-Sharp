@@ -23,7 +23,7 @@ namespace Valorations
             _3DVector myVector;
 
             // MyArrays myArray = new MyArrays();
-            // Methods
+            // Array example
             // myArray.ArrayWorking();
 
             // Assignate propierties
@@ -52,10 +52,18 @@ namespace Valorations
             WriteValorations("The max value is: ", (int)maxValoration);
             WriteValorations("The letter of the valoration in: " + book.lettersValoration);
 
+            // Switch Case control estructure
             SwitchCase myCases = new SwitchCase();
             myCases.SwitchCaseExample1();
             myCases.SwitchCaseExample2();
             myCases.SwitchCaseExample3();
+
+            // Bucles
+            Bucles myBucle = new Bucles();
+            myBucle.BuclesForEach();
+            myBucle.BuclesForLoop();
+            myBucle.BucleDoWhile();
+            myBucle.BucleDoWhile();
 
             // Console.Beep();
             // Create a new object of Conditionals type, is needed to instance it because is not a static class

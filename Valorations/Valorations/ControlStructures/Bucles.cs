@@ -13,23 +13,39 @@ namespace Valorations.ControlStructures
         public void BuclesForEach()
         {
             int[] array1 = { 0, 1, 2, 3, 4, 5 };
-            
+
             // With numerics 
             foreach (int n in array1)
             {
-                Console.WriteLine("For each string: " + n.ToString());
+                // break;
+                // continue;
+                // these two go out of the method and continue the program 
+
+                //return;
+                // jump out of the method
+
+                // goto "label";
+                // "label"
+                // These keyword jump where the label is placed
+
+                goto hello;
+
+                Console.WriteLine("For each int: " + n.ToString());
+
+                hello:
+                Console.WriteLine("I jump the console");
             }
 
             // With strings
             string[] array2 = { "Hello", "World" };
 
-            foreach(string s in array2)
+            foreach (string s in array2)
             {
                 Console.WriteLine("For each string: " + s);
             }
         }
 
-        public void BuclesForLopp()
+        public void BuclesForLoop()
         {
             int[] array1 = { 0, 1, 2, 3, 4, 5 };
 
@@ -46,7 +62,48 @@ namespace Valorations.ControlStructures
             {
                 Console.WriteLine("For each string: " + array2[i]);
             }
+        }
 
+        public void WhileBucle()
+        {
+            int[] array1 = { 0, 1, 2, 3, 4, 5 };
+            int x = 0;
+
+            while (x < 6)
+            {
+                Console.WriteLine("While int " + array1[x].ToString());
+                x++;
+            }
+
+            string[] array2 = { "Hello", "World" };
+            int y = 0;
+
+            while (y < 2)
+            {
+                Console.WriteLine("While string " + array2[y]);
+                y++;
+            }
+        }
+
+        public void BucleDoWhile()
+        {
+            int[] array1 = { 0, 1, 2, 3, 4, 5 };
+            int x = 0;
+
+            do
+            {
+                Console.WriteLine("Do while int " + array1[x].ToString());
+                x++;
+            } while (x < 6);
+
+            string[] array2 = { "Hello", "World" };
+            int y = 0;
+
+            do
+            {
+                Console.WriteLine("Do while string " + array2[y]);
+                y++;
+            } while (y < 2);
         }
     }
 }
